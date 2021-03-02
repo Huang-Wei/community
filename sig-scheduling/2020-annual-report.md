@@ -88,6 +88,7 @@ Yes.
     - [Prefer Nominated Node]
     - [Node Resource Strategy]
     - [Pod Affinity Namespace Selector]
+    - [Volume Capacity Priority] (co-owned by sig-storage)
 - Beta
     - [Default topology spread] (will graduate with CC)
     - [Multi Scheduling Profiles]
@@ -115,6 +116,7 @@ We haven't stated leveraging devstat data or Github board to get a high-level pi
 [Prefer Nominated Node]: https://github.com/kubernetes/enhancements/tree/master/keps/sig-scheduling/1923-prefer-nominated-node
 [Node Resource Strategy]: https://github.com/kubernetes/enhancements/tree/master/keps/sig-scheduling/2458-node-resource-score-strategy
 [Pod Affinity Namespace Selector]: https://github.com/kubernetes/enhancements/tree/master/keps/sig-scheduling/2249-pod-affinity-namespace-selector
+[Volume Capacity Priority]: https://github.com/kubernetes/enhancements/tree/master/keps/sig-storage/1845-prioritization-on-volume-capacity
 [Default topology spread]: https://github.com/kubernetes/enhancements/tree/master/keps/sig-scheduling/1258-default-pod-topology-spread
 [Multi Scheduling Profiles]: https://github.com/kubernetes/enhancements/tree/master/keps/sig-scheduling/1451-multi-scheduling-profiles
 [Non-preempting priority class]: https://github.com/kubernetes/enhancements/tree/master/keps/sig-scheduling/902-non-preempting-priorityclass
